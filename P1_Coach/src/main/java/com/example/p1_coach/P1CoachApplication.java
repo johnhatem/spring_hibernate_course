@@ -15,10 +15,10 @@ public class P1CoachApplication {
 //        SpringApplication.run(P1CoachApplication.class, args);
 
         // create the object
-        Coach theCoach = new TrackCoach();
-
-        // use the object
-        System.out.println(theCoach.getDailyWorkout());
+//        Coach theCoach = new TrackCoach();
+//
+//        // use the object
+//        System.out.println(theCoach.getDailyWorkout());
 
     }
 
