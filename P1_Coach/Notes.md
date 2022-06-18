@@ -24,3 +24,5 @@ There are three ways to configure a Spring container:
 Spring Bean is simply a Java object. When Java objects are created by the Spring container, 
 then Spring refers to them as "Spring Beans". Spring Beans are created from normal Java classes, 
 just like Java objects.
+#### Why do we specify the Coach interface in getBean()?
+When we pass the interface to the method, behind the scenes Spring will cast the object for you. 
